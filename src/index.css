@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.header{
+    background-color: #5D936E;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    margin: auto;
+}
+
+
+nav{
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+   font-weight: bolder;
+}
+nav ul {
+    list-style: none;
+    
+}
+nav ul li{
+    padding: 7px;
+    border-bottom:2px solid #5D936E ;
+    height: 30px;
+    align-items: center;
+    line-height: 3em;
+    text-align: left;
+    
+}
+.total, h3{
+    padding: 0 0 20px 0;
+    text-align: left;
+}
+.cohort{
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+aside{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    width: 600px;
+    padding: 20px;
+   
+    
+}
+.cohort:hover{
+    color: #5D936E;
+
+}
+.profile{
+    
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: repeat(6, auto);
+    border: 1px solid #5D936E;
+    padding: 20px 20px 30px 20px;
+    margin: 0 20px 40px 0;
+      
+}
+img{
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+.student-name{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 15px;
+    font-weight: bold;
+}
+.student-user{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 12px;
+}
+.student-dob{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.graduation-status{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+span{
+    color: #5D936E;
+}
+.btn, .btn1{
+    border: none;
+    background-color: white;
+    color: #5D936E;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    text-align: left;
+    text-decoration:underline;
+    text-align:center;
+    margin-right: 230px;
+}
+.btn2{
+    background-color: #5D936E;
+    color: white;
+    border: #5D936E;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 15px;
+
+
+}
+
+.from{
+    border: 1px solid #5D936E;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+    
+}
+.more{
+   font-weight: bolder; 
+}
+.mor{
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+div ul{
+    list-style: none;
+}
+.more1, .morem1{
+    grid-column: 1/2;
+    grid-row: 5/6;
+   
+}
+.more2, .morem2{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.more3, .morem3{
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.h3{
+    margin: 20px;
+    border-top: 1px solid #5D936E;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+.note{
+    padding: 5px;
+    text-align: center;
+    margin: 20px;
+}
