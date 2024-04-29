@@ -2,24 +2,6 @@
 
 For this assignment, you will build a student dashboard that will make use of already existing data stored in a JSON file. Users will be able to view students in several ways as well as add comments to those students.
 
-## Project scoring
-
-This project has three different parts on which you will be graded. Each part is weighted differently.
-
-- 70% of the project is scored on **completion**.
-- 20% of the project is scored through the **mastery rubric**.
-- 10% of the project is scored through **stretch goals**.
-
-In total, you must receive at least 70% to complete this project. For example, you could attain 55% of points through the completion requirements, 10% of points through the mastery rubric, and 5% of points through the stretch goals.
-
-### Completion
-
-To complete this project, you will need to build a React application that meets the following feature and technical requirements.
-
-#### Overall requirements
-
-1. The front-end application should be successfully deployed to the web.
-1. Your front-end repository should have a `readme.md` file with setup instructions for your application. It should also include a link to your deployed application.
 
 #### Front-end feature requirements
 
@@ -110,26 +92,29 @@ The following is an example of the application. These images show the applicatio
 
 ### Landing page
 
-![landing page](./instruction-assets/landing.png)
+![landing page](./instruction-assets/landing.jpg)
 
 ### Cohort list
 
-![cohort list](./instruction-assets/cohort-list.png)
+![cohort list](./instruction-assets/cohort-list.jpg)
 
 ### Cohort list on click
 
-![interactive cohort list](./instruction-assets/interactive-cohort-list.png)
+![interactive cohort list](./instruction-assets/interactive-cohort-list.jpg)
 
 ### Student list with "On-track"
 
-![on-track designation](./instruction-assets/improved-student-list.png)
+![on-track designation](./instruction-assets/improved-student-list.jpg)
 
 ### Student details section
 
-![closed](./instruction-assets/student-details-closed.png)
+![closed](./instruction-assets/student-details-closed.jpg)
 
-![opened](./instruction-assets/student-details-opened.png)
+![opened](./instruction-assets/student-details-opened.jpg)
 
 ### 1-on-1 section
 
-![one-on-one section](./instruction-assets/one-on-one-section.png)
+![one-on-one section](./instruction-assets/one-on-one-section.jpg)
+
+
+[My live URL](https://stellar-fenglisu-4a3117.netlify.app)
