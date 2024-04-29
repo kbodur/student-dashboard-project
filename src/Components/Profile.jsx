@@ -90,6 +90,6 @@ export default function Profile(props) {
         </div> 
         </div >
 
-    ); 
+    );
 }
 
