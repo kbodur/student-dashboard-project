@@ -1,3 +1,6 @@
+[My live URL](https://stellar-fenglisu-4a3117.netlify.app)
+
+
 # Student Dashboard Project
 
 For this assignment, you will build a student dashboard that will make use of already existing data stored in a JSON file. Users will be able to view students in several ways as well as add comments to those students.
@@ -117,4 +120,3 @@ The following is an example of the application. These images show the applicatio
 ![one-on-one section](./instruction-assets/one-on-one-section.jpg)
 
 
-[My live URL](https://stellar-fenglisu-4a3117.netlify.app)
