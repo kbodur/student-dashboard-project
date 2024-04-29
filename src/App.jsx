@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import Aside from "./Components/Aside";
+import Profile from "./Components/Profile";
 import "./App.css";
 import data from "../src/data/data.json";
 
