@@ -23,6 +23,13 @@ export default function Profile(props) {
             return <span style={{ color: "red" }}>Off Track to Graduate</span>;
         }
     };
+    const dateChange = (value) => {
+        let dob = props.dob.split("/")
+        console.log(dob)
+        const currentMonth = new Date(dob[1])
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        return (months[currentMonth.getMonth()] + " " + dob[0] + ", " + dob[2]);
+    }
 
     const calculatePercentage = (value, total) => {
         const percentage = (value / total) * 100;
@@ -39,7 +46,7 @@ export default function Profile(props) {
                 <img src={props.profilePhoto} width={'70px'} />
                 <p className="student-name">{props.preferredName} {props.middleName} {props.surname}</p>
                 <p className="student-user">{props.username}</p>
-                <p className="student-dob"><span>Birthday:</span> {props.dob}</p>
+                <p className="student-dob"><span>Birthday:</span> {dateChange(props.dob)}</p>
                 <p className="graduation-status">{graduationStatus()}</p>
                 <button className='btn' onClick={toggleContent}>
                     {isOpen ? "Show Less..." : "Show More..."}
