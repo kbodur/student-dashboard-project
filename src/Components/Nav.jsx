@@ -6,6 +6,7 @@ import data from "../data/data.json";
 export default function Nav({ filterStudent, currentCohort }) {
     const uniq = data.map((person) => person.cohort.cohortCode);
 
+    uniq.sort()
     const uniqName = [...new Set(uniq)];
     function filterCohort(arg) {
         filterStudent(arg);

@@ -25,7 +25,7 @@ export default function Profile(props) {
     };
     const dateChange = (value) => {
         let dob = props.dob.split("/")
-        console.log(dob)
+
         const currentMonth = new Date(dob[1])
         const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         return (months[currentMonth.getMonth()] + " " + dob[0] + ", " + dob[2]);
